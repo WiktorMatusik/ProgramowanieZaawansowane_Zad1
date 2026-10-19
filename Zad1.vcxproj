@@ -142,7 +142,7 @@
     <ClCompile Include="Fabryka.cpp" />
     <ClCompile Include="ListaDwukierunkowa.cpp" />
     <ClCompile Include="Wezel.cpp" />
-    <ClCompile Include="Zad1.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fabryka.h" />
