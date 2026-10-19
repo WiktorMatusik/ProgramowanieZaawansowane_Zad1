@@ -139,7 +139,15 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Fabryka.cpp" />
+    <ClCompile Include="ListaDwukierunkowa.cpp" />
+    <ClCompile Include="Wezel.cpp" />
     <ClCompile Include="Zad1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fabryka.h" />
+    <ClInclude Include="ListaDwukierunkowa.h" />
+    <ClInclude Include="Wezel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
