@@ -1,0 +1,82 @@
+\doxysection{Iterator Class Reference}
+\hypertarget{class_iterator}{}\label{class_iterator}\index{Iterator@{Iterator}}
+
+
+Klasa umożliwiająca iterację po elementach listy powiązanej za pomocą wskaźnika na bieżący węzeł.  
+
+
+
+
+{\ttfamily \+\#include $<$Iterator.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_iterator_ad69d55d7688281bdad4a6a9815dbe7bd}\label{class_iterator_ad69d55d7688281bdad4a6a9815dbe7bd} 
+{\bfseries Iterator} (\doxymbox{\hyperlink{class_wezel}{Wezel}} \texorpdfstring{$\ast$}{*}start)
+\item 
+bool \doxymbox{\hyperlink{class_iterator_ad4b898dc2745dcb1666e499fd0bd21ac}{czy\+Koniec}} () const
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy iterator osiągnął koniec kolekcji. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{class_iterator_a7feb6f8e247513c9d7d1a023c0ba206a}{pobierz\+Wartosc}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca wartość wskazywaną przez iterator. \end{DoxyCompactList}\item 
+\Hypertarget{class_iterator_ab7d68e1d079d9304bbffd105e4ff2aa0}\label{class_iterator_ab7d68e1d079d9304bbffd105e4ff2aa0} 
+void {\bfseries nastepny} ()
+\begin{DoxyCompactList}\small\item\em Przesuwa iterator na następny element w kolekcji, jeśli istnieje. \end{DoxyCompactList}\item 
+\Hypertarget{class_iterator_a8fa89a31456870eefdce1a860b8bb09e}\label{class_iterator_a8fa89a31456870eefdce1a860b8bb09e} 
+void {\bfseries poprzedni} ()
+\begin{DoxyCompactList}\small\item\em Przesuwa iterator na poprzedni element w kolekcji, jeśli to możliwe. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_wezel}{Wezel}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_iterator_ac35aa8d5d3c7f6055886a7d4f4ce5693}{get\+Aktualny}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca wskaźnik do aktualnego węzła iteratora. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa umożliwiająca iterację po elementach listy powiązanej za pomocą wskaźnika na bieżący węzeł. 
+
+\label{class_iterator_doc-func-members}
+\Hypertarget{class_iterator_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_iterator_ad4b898dc2745dcb1666e499fd0bd21ac}\index{Iterator@{Iterator}!czyKoniec@{czyKoniec}}
+\index{czyKoniec@{czyKoniec}!Iterator@{Iterator}}
+\doxysubsubsection{\texorpdfstring{czyKoniec()}{czyKoniec()}}
+{\footnotesize\ttfamily \label{class_iterator_ad4b898dc2745dcb1666e499fd0bd21ac} 
+bool Iterator::\+czy\+Koniec (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Sprawdza, czy iterator osiągnął koniec kolekcji. 
+
+\begin{DoxyReturn}{Returns}
+Zwraca true, jeśli iterator wskazuje na koniec (nullptr), w przeciwnym razie false.
+\end{DoxyReturn}
+\Hypertarget{class_iterator_ac35aa8d5d3c7f6055886a7d4f4ce5693}\index{Iterator@{Iterator}!getAktualny@{getAktualny}}
+\index{getAktualny@{getAktualny}!Iterator@{Iterator}}
+\doxysubsubsection{\texorpdfstring{getAktualny()}{getAktualny()}}
+{\footnotesize\ttfamily \label{class_iterator_ac35aa8d5d3c7f6055886a7d4f4ce5693} 
+\doxymbox{\hyperlink{class_wezel}{Wezel}} \texorpdfstring{$\ast$}{*} Iterator::\+get\+Aktualny (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Zwraca wskaźnik do aktualnego węzła iteratora. 
+
+\begin{DoxyReturn}{Returns}
+Wskaźnik do aktualnego węzła (Wezel\texorpdfstring{$\ast$}{*}) lub nullptr, jeśli iterator nie wskazuje na żaden węzeł.
+\end{DoxyReturn}
+\Hypertarget{class_iterator_a7feb6f8e247513c9d7d1a023c0ba206a}\index{Iterator@{Iterator}!pobierzWartosc@{pobierzWartosc}}
+\index{pobierzWartosc@{pobierzWartosc}!Iterator@{Iterator}}
+\doxysubsubsection{\texorpdfstring{pobierzWartosc()}{pobierzWartosc()}}
+{\footnotesize\ttfamily \label{class_iterator_a7feb6f8e247513c9d7d1a023c0ba206a} 
+int Iterator::\+pobierz\+Wartosc (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Zwraca wartość wskazywaną przez iterator. 
+
+\begin{DoxyReturn}{Returns}
+Wartość elementu, na który wskazuje iterator. Rzuca wyjątek std::\+out\+\_\+of\+\_\+range, jeśli iterator wskazuje na nullptr.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+Iterator.\+h\item 
+Iterator.\+cpp\end{DoxyCompactItemize}

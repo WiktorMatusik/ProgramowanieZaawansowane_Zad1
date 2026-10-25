@@ -1,0 +1,47 @@
+\doxysection{Lista\+Dwukierunkowa.\+h}
+\hypertarget{_lista_dwukierunkowa_8h_source}{}\label{_lista_dwukierunkowa_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ LISTA\_DWUKIERUNKOWA\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ LISTA\_DWUKIERUNKOWA\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}Wezel.h"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}fabryka.h"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}Iterator.h"{}}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{class\ }ListaDwukierunkowa\ \{}
+\DoxyCodeLine{00013\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00014\ \ \ \ \ \doxymbox{\hyperlink{class_wezel}{Wezel}}*\ poczatek;}
+\DoxyCodeLine{00015\ \ \ \ \ \doxymbox{\hyperlink{class_wezel}{Wezel}}*\ koniec;}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{int}\ rozmiar;}
+\DoxyCodeLine{00017\ \ \ \ \ \doxymbox{\hyperlink{class_fabryka_wezlow}{FabrykaWezlow}}*\ fabryka;}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00020\ \ \ \ \ ListaDwukierunkowa(\doxymbox{\hyperlink{class_fabryka_wezlow}{FabrykaWezlow}}*\ fabryka);}
+\DoxyCodeLine{00021\ \ \ \ \ \string~ListaDwukierunkowa();}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_lista_dwukierunkowa_a79c478c8903f95788334044383cbb668}{dodajNaPoczatek}}(\textcolor{keywordtype}{int}\ wartosc);}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_lista_dwukierunkowa_a92899ab4746f2567e9e575157220ddec}{dodajNaKoniec}}(\textcolor{keywordtype}{int}\ wartosc);}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_lista_dwukierunkowa_af3fb6a95a54ce125cc18705c859ba023}{dodajPodIndeks}}(\textcolor{keywordtype}{int}\ indeks,\ \textcolor{keywordtype}{int}\ wartosc);}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_lista_dwukierunkowa_a65e1aaa3e0595192c7923bc4e7912886}{usunZPoczatek}}();}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_lista_dwukierunkowa_acd7d9a556acc893a7b10dec6352efbaf}{usunZKoniec}}();}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_lista_dwukierunkowa_a737d7d007d4c569326e83d53cc03afcc}{usunPodIndeks}}(\textcolor{keywordtype}{int}\ indeks);}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_lista_dwukierunkowa_aa8dbd2961e855546022ec866f7f975f5}{wyczysc}}();}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_lista_dwukierunkowa_aa465455ce8729c26e0ec16616ef98461}{wyswietl}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_lista_dwukierunkowa_a2c700b019176bb7b730c95f90e793ae5}{wyswietlOdTylu}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \ \ \ \ \doxymbox{\hyperlink{class_iterator}{Iterator}}\ \doxymbox{\hyperlink{class_lista_dwukierunkowa_ad8bfc2e2e003adda13e967328cbb7feb}{utworzIterator}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_lista_dwukierunkowa_a66f13224d2007bd312365e477e905b14}{pobierzRozmiar}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00043\ \};}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

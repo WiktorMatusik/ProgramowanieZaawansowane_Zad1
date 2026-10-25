@@ -1,0 +1,146 @@
+\doxysection{Lista\+Dwukierunkowa Class Reference}
+\hypertarget{class_lista_dwukierunkowa}{}\label{class_lista_dwukierunkowa}\index{ListaDwukierunkowa@{ListaDwukierunkowa}}
+
+
+Klasa implementująca dwukierunkową listę liczb całkowitych z obsługą dodawania, usuwania i wyświetlania elementów.  
+
+
+
+
+{\ttfamily \+\#include $<$Lista\+Dwukierunkowa.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_lista_dwukierunkowa_a6677550c14925a783a9b12be5a779787}\label{class_lista_dwukierunkowa_a6677550c14925a783a9b12be5a779787} 
+{\bfseries Lista\+Dwukierunkowa} (\doxymbox{\hyperlink{class_fabryka_wezlow}{Fabryka\+Wezlow}} \texorpdfstring{$\ast$}{*}fabryka)
+\item 
+void \doxymbox{\hyperlink{class_lista_dwukierunkowa_a79c478c8903f95788334044383cbb668}{dodaj\+Na\+Poczatek}} (int wartosc)
+\begin{DoxyCompactList}\small\item\em Dodaje nowy element na początek listy dwukierunkowej. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_lista_dwukierunkowa_a92899ab4746f2567e9e575157220ddec}{dodaj\+Na\+Koniec}} (int wartosc)
+\begin{DoxyCompactList}\small\item\em Dodaje nowy element o podanej wartości na koniec listy dwukierunkowej. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_lista_dwukierunkowa_af3fb6a95a54ce125cc18705c859ba023}{dodaj\+Pod\+Indeks}} (int indeks, int wartosc)
+\begin{DoxyCompactList}\small\item\em Dodaje nowy element o podanej wartości na określonym indeksie w liście dwukierunkowej. \end{DoxyCompactList}\item 
+\Hypertarget{class_lista_dwukierunkowa_a65e1aaa3e0595192c7923bc4e7912886}\label{class_lista_dwukierunkowa_a65e1aaa3e0595192c7923bc4e7912886} 
+void {\bfseries usun\+ZPoczatek} ()
+\begin{DoxyCompactList}\small\item\em Usuwa pierwszy element z listy dwukierunkowej. \end{DoxyCompactList}\item 
+\Hypertarget{class_lista_dwukierunkowa_acd7d9a556acc893a7b10dec6352efbaf}\label{class_lista_dwukierunkowa_acd7d9a556acc893a7b10dec6352efbaf} 
+void {\bfseries usun\+ZKoniec} ()
+\begin{DoxyCompactList}\small\item\em Usuwa ostatni element z listy dwukierunkowej. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_lista_dwukierunkowa_a737d7d007d4c569326e83d53cc03afcc}{usun\+Pod\+Indeks}} (int indeks)
+\begin{DoxyCompactList}\small\item\em Usuwa element z listy dwukierunkowej na podanym indeksie. \end{DoxyCompactList}\item 
+\Hypertarget{class_lista_dwukierunkowa_aa8dbd2961e855546022ec866f7f975f5}\label{class_lista_dwukierunkowa_aa8dbd2961e855546022ec866f7f975f5} 
+void {\bfseries wyczysc} ()
+\begin{DoxyCompactList}\small\item\em Usuwa wszystkie elementy z listy dwukierunkowej, zwalniając zaalokowaną pamięć. \end{DoxyCompactList}\item 
+\Hypertarget{class_lista_dwukierunkowa_aa465455ce8729c26e0ec16616ef98461}\label{class_lista_dwukierunkowa_aa465455ce8729c26e0ec16616ef98461} 
+void {\bfseries wyswietl} () const
+\begin{DoxyCompactList}\small\item\em Wyświetla zawartość listy dwukierunkowej od początku do końca. \end{DoxyCompactList}\item 
+\Hypertarget{class_lista_dwukierunkowa_a2c700b019176bb7b730c95f90e793ae5}\label{class_lista_dwukierunkowa_a2c700b019176bb7b730c95f90e793ae5} 
+void {\bfseries wyswietl\+Od\+Tylu} () const
+\begin{DoxyCompactList}\small\item\em Wyświetla zawartość listy dwukierunkowej od końca do początku. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_iterator}{Iterator}} \doxymbox{\hyperlink{class_lista_dwukierunkowa_ad8bfc2e2e003adda13e967328cbb7feb}{utworz\+Iterator}} () const
+\begin{DoxyCompactList}\small\item\em Tworzy nowy iterator wskazujący na początek listy dwukierunkowej. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{class_lista_dwukierunkowa_a66f13224d2007bd312365e477e905b14}{pobierz\+Rozmiar}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca liczbę elementów w liście dwukierunkowej. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa implementująca dwukierunkową listę liczb całkowitych z obsługą dodawania, usuwania i wyświetlania elementów. 
+
+\label{class_lista_dwukierunkowa_doc-func-members}
+\Hypertarget{class_lista_dwukierunkowa_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_lista_dwukierunkowa_a92899ab4746f2567e9e575157220ddec}\index{ListaDwukierunkowa@{ListaDwukierunkowa}!dodajNaKoniec@{dodajNaKoniec}}
+\index{dodajNaKoniec@{dodajNaKoniec}!ListaDwukierunkowa@{ListaDwukierunkowa}}
+\doxysubsubsection{\texorpdfstring{dodajNaKoniec()}{dodajNaKoniec()}}
+{\footnotesize\ttfamily \label{class_lista_dwukierunkowa_a92899ab4746f2567e9e575157220ddec} 
+void Lista\+Dwukierunkowa::\+dodaj\+Na\+Koniec (\begin{DoxyParamCaption}\item[{int}]{wartosc}{}\end{DoxyParamCaption})}
+
+
+
+Dodaje nowy element o podanej wartości na koniec listy dwukierunkowej. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wartosc} & Wartość, która zostanie dodana jako nowy element na końcu listy.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_lista_dwukierunkowa_a79c478c8903f95788334044383cbb668}\index{ListaDwukierunkowa@{ListaDwukierunkowa}!dodajNaPoczatek@{dodajNaPoczatek}}
+\index{dodajNaPoczatek@{dodajNaPoczatek}!ListaDwukierunkowa@{ListaDwukierunkowa}}
+\doxysubsubsection{\texorpdfstring{dodajNaPoczatek()}{dodajNaPoczatek()}}
+{\footnotesize\ttfamily \label{class_lista_dwukierunkowa_a79c478c8903f95788334044383cbb668} 
+void Lista\+Dwukierunkowa::\+dodaj\+Na\+Poczatek (\begin{DoxyParamCaption}\item[{int}]{wartosc}{}\end{DoxyParamCaption})}
+
+
+
+Dodaje nowy element na początek listy dwukierunkowej. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wartosc} & Wartość do dodania na początek listy.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_lista_dwukierunkowa_af3fb6a95a54ce125cc18705c859ba023}\index{ListaDwukierunkowa@{ListaDwukierunkowa}!dodajPodIndeks@{dodajPodIndeks}}
+\index{dodajPodIndeks@{dodajPodIndeks}!ListaDwukierunkowa@{ListaDwukierunkowa}}
+\doxysubsubsection{\texorpdfstring{dodajPodIndeks()}{dodajPodIndeks()}}
+{\footnotesize\ttfamily \label{class_lista_dwukierunkowa_af3fb6a95a54ce125cc18705c859ba023} 
+void Lista\+Dwukierunkowa::\+dodaj\+Pod\+Indeks (\begin{DoxyParamCaption}\item[{int}]{indeks}{, }\item[{int}]{wartosc}{}\end{DoxyParamCaption})}
+
+
+
+Dodaje nowy element o podanej wartości na określonym indeksie w liście dwukierunkowej. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em indeks} & Pozycja, na której ma zostać dodany nowy element. Musi być w zakresie od 0 do rozmiar listy.\\
+\hline
+{\em wartosc} & Wartość nowego elementu do dodania.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_lista_dwukierunkowa_a66f13224d2007bd312365e477e905b14}\index{ListaDwukierunkowa@{ListaDwukierunkowa}!pobierzRozmiar@{pobierzRozmiar}}
+\index{pobierzRozmiar@{pobierzRozmiar}!ListaDwukierunkowa@{ListaDwukierunkowa}}
+\doxysubsubsection{\texorpdfstring{pobierzRozmiar()}{pobierzRozmiar()}}
+{\footnotesize\ttfamily \label{class_lista_dwukierunkowa_a66f13224d2007bd312365e477e905b14} 
+int Lista\+Dwukierunkowa::\+pobierz\+Rozmiar (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Zwraca liczbę elementów w liście dwukierunkowej. 
+
+\begin{DoxyReturn}{Returns}
+Aktualny rozmiar (liczbę elementów) listy dwukierunkowej jako wartość typu int.
+\end{DoxyReturn}
+\Hypertarget{class_lista_dwukierunkowa_a737d7d007d4c569326e83d53cc03afcc}\index{ListaDwukierunkowa@{ListaDwukierunkowa}!usunPodIndeks@{usunPodIndeks}}
+\index{usunPodIndeks@{usunPodIndeks}!ListaDwukierunkowa@{ListaDwukierunkowa}}
+\doxysubsubsection{\texorpdfstring{usunPodIndeks()}{usunPodIndeks()}}
+{\footnotesize\ttfamily \label{class_lista_dwukierunkowa_a737d7d007d4c569326e83d53cc03afcc} 
+void Lista\+Dwukierunkowa::\+usun\+Pod\+Indeks (\begin{DoxyParamCaption}\item[{int}]{indeks}{}\end{DoxyParamCaption})}
+
+
+
+Usuwa element z listy dwukierunkowej na podanym indeksie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em indeks} & Indeks elementu do usunięcia (liczony od zera).\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_lista_dwukierunkowa_ad8bfc2e2e003adda13e967328cbb7feb}\index{ListaDwukierunkowa@{ListaDwukierunkowa}!utworzIterator@{utworzIterator}}
+\index{utworzIterator@{utworzIterator}!ListaDwukierunkowa@{ListaDwukierunkowa}}
+\doxysubsubsection{\texorpdfstring{utworzIterator()}{utworzIterator()}}
+{\footnotesize\ttfamily \label{class_lista_dwukierunkowa_ad8bfc2e2e003adda13e967328cbb7feb} 
+\doxymbox{\hyperlink{class_iterator}{Iterator}} Lista\+Dwukierunkowa::\+utworz\+Iterator (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Tworzy nowy iterator wskazujący na początek listy dwukierunkowej. 
+
+\begin{DoxyReturn}{Returns}
+Nowy obiekt \doxylink{class_iterator}{Iterator} ustawiony na pierwszy element listy.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+Lista\+Dwukierunkowa.\+h\item 
+Lista\+Dwukierunkowa.\+cpp\end{DoxyCompactItemize}

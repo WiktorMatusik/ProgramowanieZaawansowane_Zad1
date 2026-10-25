@@ -1,0 +1,66 @@
+\begin{theindex}
+
+  \item {czyKoniec}
+    \subitem {Iterator}, \hyperpage{9}
+
+  \indexspace
+
+  \item {dodajNaKoniec}
+    \subitem {ListaDwukierunkowa}, \hyperpage{11}
+  \item {dodajNaPoczatek}
+    \subitem {ListaDwukierunkowa}, \hyperpage{11}
+  \item {dodajPodIndeks}
+    \subitem {ListaDwukierunkowa}, \hyperpage{11}
+
+  \indexspace
+
+  \item {Fabryka}, \hyperpage{7}
+    \subitem {utworzWezel}, \hyperpage{7}
+  \item {FabrykaWezlow}, \hyperpage{8}
+    \subitem {utworzWezel}, \hyperpage{8}
+
+  \indexspace
+
+  \item {getAktualny}
+    \subitem {Iterator}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Iterator}, \hyperpage{9}
+    \subitem {czyKoniec}, \hyperpage{9}
+    \subitem {getAktualny}, \hyperpage{9}
+    \subitem {pobierzWartosc}, \hyperpage{9}
+
+  \indexspace
+
+  \item {ListaDwukierunkowa}, \hyperpage{10}
+    \subitem {dodajNaKoniec}, \hyperpage{11}
+    \subitem {dodajNaPoczatek}, \hyperpage{11}
+    \subitem {dodajPodIndeks}, \hyperpage{11}
+    \subitem {pobierzRozmiar}, \hyperpage{11}
+    \subitem {usunPodIndeks}, \hyperpage{12}
+    \subitem {utworzIterator}, \hyperpage{12}
+
+  \indexspace
+
+  \item {pobierzRozmiar}
+    \subitem {ListaDwukierunkowa}, \hyperpage{11}
+  \item {pobierzWartosc}
+    \subitem {Iterator}, \hyperpage{9}
+
+  \indexspace
+
+  \item {usunPodIndeks}
+    \subitem {ListaDwukierunkowa}, \hyperpage{12}
+  \item {utworzIterator}
+    \subitem {ListaDwukierunkowa}, \hyperpage{12}
+  \item {utworzWezel}
+    \subitem {Fabryka}, \hyperpage{7}
+    \subitem {FabrykaWezlow}, \hyperpage{8}
+
+  \indexspace
+
+  \item {Wezel}, \hyperpage{12}
+    \subitem {Wezel}, \hyperpage{13}
+
+\end{theindex}
